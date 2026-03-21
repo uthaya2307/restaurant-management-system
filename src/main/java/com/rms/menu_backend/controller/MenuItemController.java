@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/menu")
-@CrossOrigin(origins = {"http://localhost:3000"}, allowCredentials = "true")
+@CrossOrigin(origins = {"https://wonderful-sky-089039000.2.azurestaticapps.net/api/menu"}, allowCredentials = "true")
 public class MenuItemController {
 
     private final MenuItemRepository repo;
